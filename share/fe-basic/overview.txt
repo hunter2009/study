@@ -1,0 +1,30 @@
+概要：
+1. 前端概要
+    浏览器的一些历史，内核情况，用户浏览器分布
+
+2. 知识分享
+    各个语言的历史，发展以及比较好玩的Demo，插入一些日常工作分享/干货
+    2.1 html
+        1. 历史：xml，html1-html4
+        2. 现状：重点讲解下h5的新特性，拖动，performance，websocket等
+        3. 延伸
+    2.2 css
+        1. 历史
+            CSS1,2,3
+        2. 现状
+            1. 三种用法，权重值
+            2. css less sass 用法
+            3. BFC，浮动，定位
+        3. 延伸：现有类库bootstarp
+    2.3 ECMA Script
+        1. 历史
+            js
+            1. 现状5->6过度
+                项目中的遇到的坑
+                    1. firefox上传，请求头部丢失
+                    2. es5用es6
+            2. 当前spa，主要讲下flux，reflux，refuce
+            node
+            1. mock服务
+            1. 构建
+3. Q&A
