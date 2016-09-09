@@ -1,0 +1,71 @@
+什么是 HTML？
+HTML 是用来描述网页的一种语言。
+HTML 指的是超文本标记语言 (Hyper Text Markup Language)
+HTML 不是一种编程语言，而是一种标记语言 (markup language)
+标记语言是一套标记标签 (markup tag)
+HTML 使用标记标签来描述网页
+
+HTML 标签
+HTML 标记标签通常被称为 HTML 标签 (HTML tag)。
+HTML 标签是由尖括号包围的关键词，比如 <html>
+HTML 标签通常是成对出现的，比如 <b> 和 </b>
+标签对中的第一个标签是开始标签，第二个标签是结束标签
+开始和结束标签也被称为开放标签和闭合标签
+
+HTML 文档是由 HTML 元素定义的。
+
+HTML 元素语法
+HTML 元素以开始标签起始
+HTML 元素以结束标签终止
+元素的内容是开始标签与结束标签之间的内容
+某些 HTML 元素具有空内容（empty content）
+空元素在开始标签中进行关闭（以开始标签的结束而结束）
+大多数 HTML 元素可拥有属性
+
+超文本标记语言（第一版）——在1993年6月作为互联网工程工作小组（IETF）工作草案发布（并非标准）：
+HTML 2.0——1995年11月作为RFC 1866发布，在RFC 2854于2000年6月发布之后被宣布已经过时
+HTML 3.2——1997年1月14日，W3C推荐标准
+HTML 4.0——1997年12月18日，W3C推荐标准
+HTML 4.01（微小改进）——1999年12月24日，W3C推荐标准
+
+XHTML 是什么？
+XHTML 指可扩展超文本标签语言（EXtensible HyperText Markup Language）。
+XHTML 的目标是取代 HTML。
+XHTML 与 HTML 4.01 几乎是相同的。
+XHTML 是更严格更纯净的 HTML 版本。
+XHTML 是作为一种 XML 应用被重新定义的 HTML。
+XHTML 是一个 W3C 标准。
+
+XHTML1.0——发布于2000年1月26日，是W3C推荐标准，后来经过修订于2002年8月1日重新发布。
+XHTML 1.1，于2001年5月31日发布，W3C推荐标准。
+XHTML 2.0，W3C工作草案。
+XHTML 5，从XHTML 1.x的更新版，基于HTML 5草案。
+HTML4.01 是常见的版本。
+
+show-root
+https://jsfiddle.net/k16848vj/
+
+head
+<head> 标签用于定义文档的头部，它是所有头部元素的容器。<head> 中的元素可以引用脚本、指示浏览器在哪里找到样式表、提供元信息等等。
+文档的头部描述了文档的各种属性和信息，包括文档的标题、在 Web 中的位置以及和其他文档的关系等。绝大多数文档头部包含的数据都不会真正作为内容显示给读者。
+下面这些标签可用在 head 部分：<base>, <link>, <meta>, <script>, <style>, 以及 <title>。
+<title> 定义文档的标题，它是 head 部分中唯一必需的元素。
+
+如何触发
+<meta http-equiv="X-UA-Compatible" content="IE=7">  
+#以上代码告诉IE浏览器，无论是否用DTD声明文档标准，IE8/9都会以IE7引擎来渲染页面。  
+<meta http-equiv="X-UA-Compatible" content="IE=8">  
+#以上代码告诉IE浏览器，IE8/9都会以IE8引擎来渲染页面。  
+<meta http-equiv="X-UA-Compatible" content="IE=edge">  
+#以上代码告诉IE浏览器，IE8/9及以后的版本都会以最高版本IE来渲染页面。  
+<meta http-equiv="X-UA-Compatible" content="IE=7,IE=9">  
+<meta http-equiv="X-UA-Compatible" content="IE=7,9">  
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+#以上代码IE=edge告诉IE使用最新的引擎渲染网页，chrome=1则可以激活Chrome Frame.
+
+H5 canvans
+
+HTML5 prefetch
+HTML5 performance
+
+H5游戏 http://play.ih5.cn/idea/qlNd7hO
