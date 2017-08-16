@@ -1,0 +1,9 @@
+1. 本地添加fork库名
+git remote add name forkurl
+2. 获取remote列表
+git remote -v
+3. 更新remote分支
+git remote update sourceUrl
+4. check远程分支到本地
+git checkout -b [分支名] [远程名]/[分支名]
+git checkout -b localBrach sourceName/remoteBranch
